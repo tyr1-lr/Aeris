@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Django local database
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# React / Vite
+node_modules/
+dist/
+coverage/
+
+# Editors and operating system
+.vscode/
+.DS_Store
+Thumbs.db
